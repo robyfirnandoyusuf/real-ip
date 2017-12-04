@@ -22,7 +22,3 @@ function getUserIP()
 
 	return $ip;
 }
-
-$user_ip = getUserIP();
-
-echo $user_ip; // Output IP address [Ex: 177.87.193.134]
