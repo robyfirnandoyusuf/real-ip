@@ -21,4 +21,8 @@ function getUserIP()
 	}
 
 	return $ip;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 40a6903a8a75a7e9a4b330a9401b152749fed13a
