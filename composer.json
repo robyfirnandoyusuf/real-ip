@@ -1,0 +1,8 @@
+{
+    "name": "machou/real-ip",
+    "description": "This PHP script get the real IP from an user.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
