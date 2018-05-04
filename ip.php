@@ -7,18 +7,13 @@ function getUserIP()
 
 	if(filter_var($client, FILTER_VALIDATE_IP))
 	{
-		$ip = $client;
+		return $client;
 	}
 
 	elseif(filter_var($forward, FILTER_VALIDATE_IP))
 	{
-		$ip = $forward;
+		return $forward;
 	}
 
-	else
-	{
-		$ip = $remote;
-	}
-
-	return $ip;
+	return $remote;
 }
