@@ -6,6 +6,8 @@ This PHP script get the real IP from an user.
 
 ## Install via composer
 
+[Link to Packgist](https://packagist.org/packages/machou/real-ip)
+
 Just run the following command in your project root :
 
 ```
